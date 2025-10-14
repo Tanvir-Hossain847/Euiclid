@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", serif;
+    box-sizing: border-box;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./grape\ 2.0.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.navbar{
+    width: 1550px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+}
+
+
+.logo{
+    font-size: 40px;
+    float: left;
+    margin-top: 20px;
+    color: azure;
+}
+
+.icon a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    gap: 8rem;
+    margin-top: 30px;
+}
+
+li a{
+    text-decoration: none;
+    color: azure;
+    transition: all 0.3s ease-in 0s;
+}
+
+li a:hover{
+    color: rgb(213, 173, 235);
+}
+
+.container-main{
+    position: relative;
+    display: flex;
+    width: 1600px;
+  height: 85vh;
+  margin-left: 11rem;
+  margin-top: 2rem;
+/*   border: 2px solid;
+ */}
+
+
+.container{
+   align-items: self-start;
+    width: 650px;
+    border-radius: 0 15px 0 15px;
+    height: 85vh;
+}
+
+.card{
+    width: 650px;
+    border-radius: 0 15px 0 15px;
+    background-color: #de3023a4;
+    height: 85vh;
+    overflow-y: hidden;
+}
+
+.card img{
+    width: 650px;
+    height: 85vh;
+    object-fit:cover;
+    position: absolute;
+    border-radius: 0 15px 0 15px;
+}
+
+.card-content img{
+    width: 1000px;
+    position: absolute;
+    margin-left: -11rem;
+    margin-top: -1rem;
+    background-blend-mode: multiply;
+}
+
+
+.container2{
+    position: absolute;
+    margin-left: 42rem;
+    width: 925px;
+    height: 200px;
+    border-radius: 0 15px 0 15px;
+}
+
+.card2{
+    width: 925px;
+    height: 200px;
+    border-radius:  15px 0 15px 0;
+    background-color: azure;
+}
+
+.card-content2 h1{
+    padding: 5px;
+    color:#a02959;
+    margin-left: .2rem;
+}
+
+.card-content2 p{
+    padding: 12px;
+    color:#a02959;
+}
+
+
+.container3{
+    position: absolute;
+    margin-left: 42rem;
+    margin-top: 14rem;
+    width: 400px;
+    height: 280px;
+    border-radius: 0 15px 0 15px;
+}
+
+.card3{
+    width: 400px;
+    height: 280px;
+    border-radius: 0 15px 0 15px;
+    background-color: #731d4b;
+}
+
+.card-content3 h1{
+    padding: 5px;
+    color:azure
+}
+
+.card-content3 p{
+    padding: 10px;
+    color: azure;
+}
+
+.container4{
+    position: absolute;
+    margin-left: 42rem;
+    margin-top: 33.2rem;
+    width: 400px;
+    height: 270px;
+    border-radius: 0 15px 0 15px;
+}
+
+.card4{
+    width: 400px;
+    height: 270px;
+    border-radius: 0 15px 0 15px;
+    background-color: azure;
+}
+
+.card4 img{
+    width: 400px;
+    height: 270px;
+    border-radius: 0 15px 0 15px;
+    position: absolute;
+}
+
+.card-content4 img{
+    width: 180px;
+    height: 220px;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    opacity: 95%;
+    mix-blend-mode:overlay, color-burn;
+}
+
+.container5{
+    position: absolute;
+    width: 500px;
+    height: 577px;
+    margin-left: 68.5rem;
+    margin-top: 14rem;
+    border-radius: 0 15px 0 15px;   
+}
+
+.card5{
+    width: 500px;
+    height: 577px;
+    border-radius: 15px;
+    background-color: azure;
+}
+
+
+.card5 img{
+    width: 500px;
+    height: 577px;
+    border-radius:15px;
+    position: absolute;
+    object-fit: cover;
+}
+
+
+.card-content5 img{
+    object-fit: cover;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.8s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
